@@ -1,26 +1,21 @@
 # Prerequisites
 *.d
 
+# Precompiled Headers
+*.gch
+*.pch
+
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# Compiled libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
@@ -30,3 +25,20 @@
 *.exe
 *.out
 *.app
+
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.srec
+
+# Atmel Studio Files
+.vs
+*.xml
+*.mk
+Makefile
+
+# Extras
+*.swp
+
